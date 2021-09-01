@@ -1,0 +1,21 @@
+{
+  "name": "js_numbers",
+  "version": "1.0.0",
+  "description": "Interview test with vanilla JavaScript",
+  "type": "module",
+  "target": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {}
+  }
+}
