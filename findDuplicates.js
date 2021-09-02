@@ -6,7 +6,7 @@
  */
 function findDuplicates(inputArr) {
   // TODO: implement
-  return [];
+  return ['not', 'implemented'];
 }
 
 export { findDuplicates };
