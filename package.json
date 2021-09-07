@@ -2,8 +2,6 @@
   "name": "js_numbers",
   "version": "1.0.0",
   "description": "Interview test with vanilla JavaScript",
-  "type": "module",
-  "target": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -11,11 +9,13 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^27.1.0"
-  },
   "jest": {
-    "verbose": true,
-    "transform": {}
+    "verbose": true
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "babel-jest": "^27.1.0",
+    "jest": "^27.1.0"
   }
 }
